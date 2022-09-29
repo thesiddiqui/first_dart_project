@@ -22,12 +22,14 @@ void main(List<String> arguments) {
  // -----AGE----
   double? age;
   print("What's your age?");
-
   age=double.parse(stdin.readLineSync()!);
   print("I'm $age years old");
 
 
 // -----NEW AGE----
-
+  int? newAge;
+  print("What's your new age?");
+  newAge=int.parse(stdin.readLineSync()!);
+  print("My new age is $newAge");
 
 }
