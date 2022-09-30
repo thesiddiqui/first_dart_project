@@ -59,10 +59,44 @@ void main(List<String> arguments) {
 //  }
 
  // ---------------DO WHILE LOOP---------------
-var i=0;
-do{
-  print(i);
-  i++;
-}while(i<10);
+// var i=0;
+// do{
+//   print(i);
+//   i++;
+// }while(i<10);
+//
+// }
 
-}
+    // for(var s=0;s<10;s++){
+    //   print(s);
+    // }
+    //
+    // for (var r=0; r<10; r++){
+    //   if(r==5){
+    //     continue;
+    //   }
+    //   print(r);
+    // }
+    //
+    // for (var p=0; p<10; p++){
+    //   if(p==8){
+    //     break;
+    //   }
+    //   print(p);
+    // }
+
+  var age=20;
+
+  if(age>18){
+    print("Adult");
+  }
+
+  else if(age<10){
+    print('child');
+  }
+  else{
+    print("Teen ager");
+  }
+f
+
+      }
