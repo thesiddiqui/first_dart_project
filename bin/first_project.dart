@@ -20,16 +20,49 @@ void main(List<String> arguments) {
   // print('hi, $x');
 
  // -----AGE----
-  double? age;
-  print("What's your age?");
-  age=double.parse(stdin.readLineSync()!);
-  print("I'm $age years old");
+//   double? age;
+//   print("What's your age?");
+//   age=double.parse(stdin.readLineSync()!);
+//   print("I'm $age years old");
+//
+//
+// // -----NEW AGE----
+//   int? newAge;
+//   print("What's your new age?");
+//   newAge=int.parse(stdin.readLineSync()!);
+//   print("My new age is $newAge");
 
+// ---------------FOR LOOP---------------
 
-// -----NEW AGE----
-  int? newAge;
-  print("What's your new age?");
-  newAge=int.parse(stdin.readLineSync()!);
-  print("My new age is $newAge");
+// for(var n=0; n<10; n++ ){
+//   print('${n} Nayem');
+// }
+
+// ---------------FOR LOOP(continue & break)---------------
+
+// for( var x=0; x<11; x++){
+//   if(x==5){
+//     continue;
+//   }
+//   if(x==8){
+//     break;
+//   }
+//
+//   print(x);
+// }
+
+// ---------------WHILE LOOP---------------
+//  var a=0;
+//  while(a<10){
+//    print(a);
+//    a++;
+//  }
+
+ // ---------------DO WHILE LOOP---------------
+var i=0;
+do{
+  print(i);
+  i++;
+}while(i<10);
 
 }
