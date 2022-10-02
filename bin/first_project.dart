@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'package:test/expect.dart';
+
 void main(List<String> arguments) {
 
  // const String name = 'Nayem';
@@ -67,36 +69,52 @@ void main(List<String> arguments) {
 //
 // }
 
-    // for(var s=0;s<10;s++){
-    //   print(s);
-    // }
-    //
-    // for (var r=0; r<10; r++){
-    //   if(r==5){
-    //     continue;
-    //   }
-    //   print(r);
-    // }
-    //
-    // for (var p=0; p<10; p++){
-    //   if(p==8){
-    //     break;
-    //   }
-    //   print(p);
-    // }
 
-  var age=20;
+// double? age;
+// print("what's your age?");
+// age=double.parse(stdin.readLineSync()!);
+// print("My age is $age years");
+//
+// int? newAge;
+// print("what's your new age?");
+// newAge=int.parse(stdin.readLineSync()!);
+// print("My new age is $newAge years");
+//
+// for (var x=0; x<10; x++){
+//   print(x);
+// }
 
-  if(age>18){
-    print("Adult");
-  }
+// var a=0;
+// while(a<10){
+//   print(a);
+//   a++;
+// }
 
-  else if(age<10){
-    print('child');
-  }
-  else{
-    print("Teen ager");
-  }
-f
+// int? age;
+// print("Enter your age");
+// age=int.parse(stdin.readLineSync()!);
 
-      }
+// if(age>=18){
+//   print('Adult');
+// }else if(age<18){
+//   print('Not Adult');
+// }else{
+//   print("Invalid age");
+// }
+
+// for (var x=0; x<=10; x++){
+//   print(x);
+// }
+
+var i;
+print('enter your amount');
+i=int.parse(stdin.readLineSync()!);
+
+if(i%2==0){
+  print('even');
+}else {
+  print('odd');
+}
+
+
+}
